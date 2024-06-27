@@ -1,0 +1,29 @@
+.main-container {
+    width: 50%;
+    background: linear-gradient(to bottom right, #055690, #068ca4);
+}
+/* #1fa2ff, #12d8fa */
+.search-items {
+    width: 75%; 
+    gap: 1rem;
+}
+
+.input-item {
+    outline: none;
+    text-transform: capitalize;
+}
+
+/* pseudo-element */
+input::placeholder {
+    text-transform: lowercase;
+}
+/* -------------------------------- */
+
+.search-icons, .temp-scale {
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+}
+
+.search-icons:hover, .temp-scale:hover {
+    transform: scale(1.25);
+}
